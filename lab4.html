@@ -8,11 +8,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <style>
         /* Custom design */
+        body {
+            background-color: rgb(255, 191, 0); 
+        }
         .dice {
-            width: 200px;
+            width: 150px;
         }
         .logo {
-            width: 100%; 
+            width: 50%; 
             height: auto; 
         }
         .game {
@@ -38,19 +41,6 @@
             background-color: rgb(100, 0, 139);
             box-shadow: 0 5px darkgrey;
             transform: translateY(4px);
-        }
-
-        /* Responsive design */
-        @media (min-width: 1024px) and (orientation: landscape) {
-            .game {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                max-width: 600px;
-            }
-            .button {
-               margin-top: 20px;
-            }
         }
     </style>
 </head>
